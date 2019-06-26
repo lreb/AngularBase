@@ -22,6 +22,30 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Running automated documentation
+
+Install from npm :
+
+`npm install -g @compodoc/compodoc`
+
+### If you use PowerShell on Windows, add quotes:
+
+`npm install -g "@compodoc/compodoc"`
+
+### Local installation
+
+`npm install --save-dev @compodoc/compodoc`
+
+In order to generate documentation of your project, run following command:
+
+`npm run generate-docs`
+
+Generated documentation can be seen by launching index.html from generated coverage folder in your browser. You can also generate and serve documentation on local server, i.e. http://127.0.0.1:8080
+
+`npm run serve-docs`
+
+[Source](https://medium.com/learnwithrahul/automated-documentation-for-your-typescript-angular-projects-35746aa0ad5e)
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
